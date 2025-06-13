@@ -1,0 +1,84 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {  /* fundo da cor do site */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #030303;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header .logo img {
+    max-width: 200px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.home {
+    background: url('hotel_banner.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+}
+
+.button {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.rooms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.room {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.room img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #2e3b4e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,69 @@
+/* Estilos para a página de Acomodações */
+#Acomodacoes {
+    padding: 50px;
+    background-color: #f0f0f0;  /* Mantém o fundo claro para o restante da página */
+    text-align: center;
+}
+
+#Acomodacoes h1 {
+    font-size: 48px;                /* Tamanho maior para o título */
+    margin-bottom: 30px;
+}
+
+#Acomodacoes p {
+    font-size: 20px;                /* Aumenta o tamanho da descrição */
+    margin-bottom: 30px;
+}
+
+
+.room h3 {
+    font-size: 28px;                /* Aumenta o tamanho da fonte do título do quarto */
+    margin-bottom: 15px;
+}
+
+.room p {
+    font-size: 18px;                /* Aumenta o tamanho da fonte da descrição */
+    color: #555;
+}
+
+.room .button {
+    margin-top: 20px;
+    background-color: #2e3b4e;
+    color: white;
+    padding: 12px 25px;             /* Aumenta o tamanho do botão */
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.room .button:hover {
+    background-color: #1a2636;
+}
+
+.image-gallery {
+    display: flex;                  /* Define que as imagens ficam lado a lado */
+    justify-content: space-between; /* Espaçamento entre as imagens */
+    flex-wrap: wrap;                /* Permite que as imagens se quebrem para a linha seguinte, se necessário */
+    gap: 10px;                      /* Espaçamento entre as imagens */
+}
+
+.image-gallery img {
+    width: auto;                    /* As imagens terão largura automática */
+    height: auto;                   /* As imagens terão altura automática */
+    max-width: 100%;                 /* Impede que a imagem ultrapasse o limite do seu contêiner */
+    max-height: 100%;                /* Impede que a imagem ultrapasse o limite do seu contêiner */
+    border: none;                   /* Remove qualquer borda ao redor das imagens */
+    border-radius: 10px;            /* Mantém as bordas arredondadas */
+    object-fit: contain;            /* Ajusta a imagem para não ser cortada, mantendo a proporção */
+}
+
+/* Estilos gerais para as seções de quarto */
+.room {
+    margin-bottom: 40px;            /* Espaçamento entre as seções de quartos */
+}
+
+/* Ajuste para imagens dentro de outras galerias */
+.image-gallery img {
+    flex: 1 1 30%;                  /* Define que cada imagem ocupe até 30% do espaço disponível */
+    object-fit: cover;              /* Permite que a imagem cubra o espaço sem deformar */
+}
